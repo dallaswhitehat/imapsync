@@ -46,8 +46,8 @@ imapsync \
 
         echo "==== End syncing user $u1 to user $u2 ===="
 		echo "==== Removing Passfile ===="
-		rm -rf ~/pass1
-		rm -rf ~/pass2
+		rm -rf ${PF1}
+		rm -rf ${PF2}
 		echo "==== Passfile Removed ===="
         echo
     done 
