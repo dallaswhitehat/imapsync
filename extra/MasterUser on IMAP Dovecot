@@ -1,0 +1,18 @@
+http://wiki2.dovecot.org/Authentication/MasterUsers
+
+This worked for me with my Dovecot server. I added the following to the Dovecot config file:
+
+  passdb passwd-file  {
+    args=/etc/opt/csw/masters.db
+    master=yes
+    pass=yes
+  }
+
+Next I created the masters.db file with an entry for "dovecot_master".
+
+# htpasswd -c /etc/opt/csw/masters.db dovecot_master
+New password:
+Re-type new password:
+
+# grep dovecot_master /etc/opt/csw/masters.db
+dovecot_master:sRiA6.REBBTb.
