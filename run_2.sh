@@ -16,6 +16,7 @@ PWCHANGED MASKED \
   --regextrans2 s/Deleted Messages$/Deleted Items/ \
   --regextrans2 s/Junk$/Junk Email/ \
   --regextrans2 s/Junk E-mail$/Junk Email/ \
+  --maxlinelengthcmd 'reformime -r7' \
   --delete2 --expunge2 --delete2foldersbutnot
 /Calendar$|Contacts$|Infected\ Items$|Junk\
 Email$|Journal$|Notes$|Outbox$|RSS\ Feeds$|Sync\ Issues$|Sync\
