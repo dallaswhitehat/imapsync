@@ -1,0 +1,1 @@
+imapsync --nocheckmessageexists --syncinternaldates --usecache --useuid --host1 imap.mail.yahoo.com --user1 "sakoshi@ymail.com" --password1 'nothing' --ssl1 --host2 mail.skype4b.vn --user2 'test1@skype4b.vn' --passfile2 /home/hoanghh/imapsync/passfile1.txt --ssl2
