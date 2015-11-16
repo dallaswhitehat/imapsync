@@ -1,0 +1,5 @@
+Demo for Mdaemon => O365
+
+Sent => Sent Items		=		--regextrans2 's/Sent$/Sent Items/'
+Trash => Deleted Items	=		--regextrans2 's/Trash$/Deleted Items/'
+Junk => Junk Email		=		--regextrans2 's/Junk$/Junk E-Mail/'
